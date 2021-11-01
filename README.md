@@ -2,7 +2,7 @@
 an api that interfaces with a sensor and responds acordingly 
 
 
-There are a few pre-requisits if you wish to use all the functionality
+There are a few prerequisites if you wish to use all the functionality
 
 For the server you must have a version of python between 3.6 to 3.9
 
@@ -29,7 +29,7 @@ TESTS---------------------------------------------------------------------------
 Tests results can be viewed in the Tests directory
 
 1. run the server in terminal successfully
-2. View the home page of the sever
+2. View the home page of the server
 3. Add patients to the database via the admin
 4. View the get request directly from the server
 5. make a get request externally
@@ -43,11 +43,11 @@ in order for the 2 components to work together the sensor only needs to make a p
 
 
 TABLE OF CONTENTS--------------------------------------------------------------------------------------------------------------
-The code for the sensot is in the fallSensor folder located in the root directory
+The code for the sensor is in the fallSensor folder located in the root directory
 The enc folder is in the root directory, it has the configuration of the needed environment for the api
 The fall_detection folder holds the server and supporting files
 Fall_detection project holds the fall_detection configuration, the application called home page, the database, and the manage file
-Fall_detection is configured with the proper url paths and suporting libraries
+Fall_detection is configured with the proper url paths and supporting libraries
 The database holds the user information
 The manage.py is used in the command line to run the server among other crucial commands
 The Homepage application holds the admin page, the homepage, the database model,the serializer class that makes the RESTful api, and the necessary views
