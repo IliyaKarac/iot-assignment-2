@@ -1,0 +1,11 @@
+enter environment:
+env\Scripts\activate
+
+change directiry to fall_detection
+cd fall_detection
+
+run the server:
+python manage.py runserver
+
+start app:
+python manage.py startapp __name_the_app__
